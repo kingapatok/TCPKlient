@@ -42,7 +42,7 @@
             this.Adress.Size = new System.Drawing.Size(265, 20);
             this.Adress.TabIndex = 0;
             this.Adress.Text = "Adress";
-            this.Adress.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+           
             // 
             // My_port
             // 
@@ -68,12 +68,13 @@
             // 
             // przycisk_polacz
             // 
-            this.przycisk_polacz.Location = new System.Drawing.Point(128, 384);
+            this.przycisk_polacz.Location = new System.Drawing.Point(122, 387);
             this.przycisk_polacz.Name = "przycisk_polacz";
             this.przycisk_polacz.Size = new System.Drawing.Size(329, 23);
             this.przycisk_polacz.TabIndex = 3;
             this.przycisk_polacz.Text = "Połącz";
             this.przycisk_polacz.UseVisualStyleBackColor = true;
+            this.przycisk_polacz.Click += new System.EventHandler(this.przycisk_polacz_Click);
             // 
             // Form1
             // 
